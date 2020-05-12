@@ -1,0 +1,10 @@
+E:\IRC\POCs\SatelliteWebAPI\Satellite.ADODataRepository\bin\Debug\netstandard2.0\Satellite.ADODataRepository.deps.json
+E:\IRC\POCs\SatelliteWebAPI\Satellite.ADODataRepository\bin\Debug\netstandard2.0\Satellite.ADODataRepository.dll
+E:\IRC\POCs\SatelliteWebAPI\Satellite.ADODataRepository\obj\Debug\netstandard2.0\Satellite.ADODataRepository.csprojResolveAssemblyReference.cache
+E:\IRC\POCs\SatelliteWebAPI\Satellite.ADODataRepository\obj\Debug\netstandard2.0\Satellite.ADODataRepository.csproj.CoreCompileInputs.cache
+E:\IRC\POCs\SatelliteWebAPI\Satellite.ADODataRepository\obj\Debug\netstandard2.0\Satellite.ADODataRepository.AssemblyInfoInputs.cache
+E:\IRC\POCs\SatelliteWebAPI\Satellite.ADODataRepository\obj\Debug\netstandard2.0\Satellite.ADODataRepository.AssemblyInfo.cs
+E:\IRC\POCs\SatelliteWebAPI\Satellite.ADODataRepository\bin\Debug\netstandard2.0\Satellite.ADODataRepository.dll.config
+E:\IRC\POCs\SatelliteWebAPI\Satellite.ADODataRepository\bin\Debug\netstandard2.0\Satellite.ADODataRepository.pdb
+E:\IRC\POCs\SatelliteWebAPI\Satellite.ADODataRepository\obj\Debug\netstandard2.0\Satellite.ADODataRepository.dll
+E:\IRC\POCs\SatelliteWebAPI\Satellite.ADODataRepository\obj\Debug\netstandard2.0\Satellite.ADODataRepository.pdb

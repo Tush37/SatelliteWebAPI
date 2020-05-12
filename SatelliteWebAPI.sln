@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatelliteWebAPI", "SatelliteWebAPI\SatelliteWebAPI.csproj", "{0389A35C-A350-455A-BD09-BB0C4923E834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Satellite.Test", "Satellite.Test\Satellite.Test.csproj", "{A6354D00-DA18-49E3-9EEA-5FAA0E33FAA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0389A35C-A350-455A-BD09-BB0C4923E834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0389A35C-A350-455A-BD09-BB0C4923E834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0389A35C-A350-455A-BD09-BB0C4923E834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0389A35C-A350-455A-BD09-BB0C4923E834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6354D00-DA18-49E3-9EEA-5FAA0E33FAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6354D00-DA18-49E3-9EEA-5FAA0E33FAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6354D00-DA18-49E3-9EEA-5FAA0E33FAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6354D00-DA18-49E3-9EEA-5FAA0E33FAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5003F02-FB2C-483E-A5A0-69B74938A25E}
+	EndGlobalSection
+EndGlobal

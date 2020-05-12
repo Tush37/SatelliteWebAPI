@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'IRC.SATELLITE.V1.0.dbo.SatelliteDetails' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="SatelliteDetails">
+          <Property Name="Satellite Name" Type="varchar" MaxLength="50" />
+          <Property Name="Org of UN Registry" Type="varchar" MaxLength="50" />
+          <Property Name="Country of Operator" Type="varchar" MaxLength="50" />
+          <Property Name="Users" Type="varchar" MaxLength="50" />
+          <Property Name="Purpose" Type="varchar" MaxLength="50" />
+          <Property Name="Class of Orbit" Type="varchar" MaxLength="50" />
+          <Property Name="Longitude of GEO (degrees)" Type="varchar" MaxLength="50" />
+          <Property Name="Perigee (km)" Type="varchar" MaxLength="50" />
+          <Property Name="Apogee (km)" Type="varchar" MaxLength="50" />
+          <Property Name="Inclination (degrees)" Type="varchar" MaxLength="50" />
+          <Property Name="Period (minutes)" Type="varchar" MaxLength="50" />
+          <Property Name="Launch Mass (kg )" Type="varchar" MaxLength="50" />
+          <Property Name="Dry Mass (kg )" Type="varchar" MaxLength="50" />
+          <Property Name="Power (watts)" Type="varchar" MaxLength="50" />
+          <Property Name="Date of Launch" Type="varchar" MaxLength="50" />
+          <Property Name="Expected Lifetime (yrs )" Type="varchar" MaxLength="50" />
+          <Property Name="Country of Contractor" Type="varchar" MaxLength="50" />
+          <Property Name="Launch Site" Type="varchar" MaxLength="50" />
+          <Property Name="Launch Vehicle" Type="varchar" MaxLength="50" />
+          <Property Name="COSPAR Number" Type="varchar" MaxLength="50" />
+          <Property Name="NORAD Number" Type="varchar" MaxLength="50" />
+        </EntityType>-->
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'IRC.SATELLITE.V1.0.dbo.SatelliteDetails_Countrywise' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="SatelliteDetails_Countrywise">
+          <Property Name="Current Official Name of Satellite" Type="varchar" MaxLength="50" />
+          <Property Name="Country Org of UN Registry" Type="varchar" MaxLength="50" />
+          <Property Name="Country of Operator Owner" Type="varchar" MaxLength="50" />
+          <Property Name="Operator Owner" Type="varchar" MaxLength="50" />
+          <Property Name="Users" Type="varchar" MaxLength="50" />
+          <Property Name="Purpose" Type="varchar" MaxLength="50" />
+          <Property Name="Detailed Purpose" Type="varchar" MaxLength="50" />
+          <Property Name="Class of Orbit" Type="varchar" MaxLength="50" />
+          <Property Name="Type of Orbit" Type="varchar" MaxLength="50" />
+          <Property Name="Longitude of GEO (degrees)" Type="varchar" MaxLength="50" />
+          <Property Name="Perigee (km)" Type="varchar" MaxLength="50" />
+          <Property Name="Apogee (km)" Type="varchar" MaxLength="50" />
+          <Property Name="Eccentricity" Type="varchar" MaxLength="50" />
+          <Property Name="Inclination (degrees)" Type="varchar" MaxLength="50" />
+          <Property Name="Period (minutes)" Type="varchar" MaxLength="50" />
+          <Property Name="Launch Mass (kg )" Type="varchar" MaxLength="50" />
+          <Property Name="Dry Mass (kg )" Type="varchar" MaxLength="50" />
+          <Property Name="Power (watts)" Type="varchar" MaxLength="50" />
+          <Property Name="Date of Launch" Type="varchar" MaxLength="50" />
+          <Property Name="Expected Lifetime (yrs )" Type="varchar" MaxLength="50" />
+          <Property Name="Contractor" Type="varchar" MaxLength="50" />
+          <Property Name="Country of Contractor" Type="varchar" MaxLength="50" />
+          <Property Name="Launch Site" Type="varchar" MaxLength="50" />
+          <Property Name="Launch Vehicle" Type="varchar" MaxLength="50" />
+          <Property Name="COSPAR Number" Type="varchar" MaxLength="50" />
+          <Property Name="NORAD Number" Type="varchar" MaxLength="50" />
+          <Property Name="Comments" Type="varchar" MaxLength="50" />
+          <Property Name="Column 27" Type="varchar" MaxLength="50" />
+          <Property Name="Column 28" Type="varchar" MaxLength="50" />
+          <Property Name="Column 29" Type="varchar" MaxLength="50" />
+          <Property Name="Column 30" Type="varchar" MaxLength="50" />
+          <Property Name="Column 31" Type="varchar" MaxLength="50" />
+          <Property Name="Column 32" Type="varchar" MaxLength="50" />
+          <Property Name="Column 33" Type="varchar" MaxLength="50" />
+          <Property Name="Column 34" Type="varchar" MaxLength="50" />
+          <Property Name="Column 35" Type="varchar" MaxLength="50" />
+          <Property Name="Column 36" Type="varchar" MaxLength="50" />
+          <Property Name="Column 37" Type="varchar" MaxLength="50" />
+          <Property Name="Column 38" Type="varchar" MaxLength="50" />
+          <Property Name="Column 39" Type="varchar" MaxLength="50" />
+          <Property Name="Column 40" Type="varchar" MaxLength="50" />
+          <Property Name="Column 41" Type="varchar" MaxLength="50" />
+          <Property Name="Column 42" Type="varchar" MaxLength="50" />
+          <Property Name="Column 43" Type="varchar" MaxLength="50" />
+          <Property Name="Column 44" Type="varchar" MaxLength="50" />
+          <Property Name="Column 45" Type="varchar" MaxLength="50" />
+          <Property Name="Column 46" Type="varchar" MaxLength="50" />
+          <Property Name="Column 47" Type="varchar" MaxLength="50" />
+          <Property Name="Column 48" Type="varchar" MaxLength="50" />
+          <Property Name="Column 49" Type="varchar" MaxLength="50" />
+          <Property Name="Column 50" Type="varchar" MaxLength="50" />
+          <Property Name="Column 51" Type="varchar" MaxLength="50" />
+          <Property Name="Column 52" Type="varchar" MaxLength="50" />
+          <Property Name="Column 53" Type="varchar" MaxLength="50" />
+          <Property Name="Column 54" Type="varchar" MaxLength="50" />
+          <Property Name="Column 55" Type="varchar" MaxLength="50" />
+          <Property Name="Column 56" Type="varchar" MaxLength="50" />
+        </EntityType>-->
+        <EntityContainer Name="ModelStoreContainer" />
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true" />
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities" />
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
